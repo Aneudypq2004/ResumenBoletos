@@ -1,0 +1,172 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: black;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.principal {
+
+  & h2 {
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem 0;
+    text-transform: uppercase;
+  }
+
+
+}
+
+/*  */
+
+.info-movie {
+  display: flex;
+  color: black;
+  font-weight: bold;
+
+  & h3 {
+    font-size: 1.3rem;
+    color: #FF00FF;
+  }
+
+  & p {
+    font-size: .8rem;
+    font-weight: 900;
+  }
+
+
+  & img {
+    max-width: 100%;
+    font-weight: 400;
+  }
+}
+
+span {
+  font-weight: 900;
+  color:  #FF00FF;
+
+}
+
+.image-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.movie-data {
+
+  & p {
+    margin-bottom: 1.5rem;
+  }
+
+}
+
+
+/* Contenerdor */
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+  @media (min-width : 700px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  gap: 2rem;
+  width: 95%;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+/* CARD */
+
+.card {
+  display: grid;
+  place-items: center;
+  border-radius: .5rem;
+  padding: .5rem;
+  background-color: rgba(255, 255, 255, 0.92);
+  text-transform: uppercase;
+
+  & h3 {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    color: black;
+    margin-bottom: .5rem;
+  }
+}
+
+/* header */
+
+
+
+/* ========  FOOTER =====*/
+
+header,
+footer {
+
+  text-align: center;
+  padding: 1rem;
+  background-color: #FF00FF;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .8rem;
+}
+
+footer {
+
+  margin-top: 1rem;
+
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* BTN  */
+
+.btn {
+  border: none;
+  padding: 10px 10px;
+  margin-top: .5rem;
+  text-transform: uppercase;
+  background-color: rgb(249, 53, 53);
+  border-radius: 5px;
+  color: white;
+  transition: all .5s ease;
+  font-weight: bold;
+
+  &:hover {
+    background-color: #ff0000;
+    cursor: pointer;
+  }
+
+  &.descargado {
+    background-color: rgb(77, 152, 2);
+    display: flex;
+    gap: .4rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Normalize  */
