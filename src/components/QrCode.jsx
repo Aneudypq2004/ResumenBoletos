@@ -9,7 +9,7 @@ export default function QrCode() {
     // OBTENER EL QR DEL DOM
 
     const qrRef = useRef();
-    
+
     // OBTENER LA URL
 
     const url = window.location.href;
@@ -47,7 +47,6 @@ export default function QrCode() {
                     level={"L"}
                     includeMargin={false}
                 />
-
 
             </div>
 

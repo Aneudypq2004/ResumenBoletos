@@ -85,11 +85,11 @@ function App() {
 
                       <p>Estreno:  <span>{movieData.Released} </span> </p>
 
-                      <p>Clasificacion : <span>{movieData.Rated}</span> </p>
+                      <p>Clasificación : <span>{movieData.Rated}</span> </p>
 
-                      <p>Duracion:  <span>{movieData.Runtime}</span> </p>
+                      <p>Duración:  <span>{movieData.Runtime}</span> </p>
 
-                      <p>Genero: <span> {movieData.Genre}</span> </p>
+                      <p>Género: <span> {movieData.Genre}</span> </p>
 
                     </div>
 
